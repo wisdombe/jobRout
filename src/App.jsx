@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 
 function App() {
-  const [isMenuVisible, setMenuVisible] = useState(false);
+  const [isMenuVisible, setMenuVisible] = useState(true);
 
   const toggleMenu = () => {
     setMenuVisible(!isMenuVisible);
